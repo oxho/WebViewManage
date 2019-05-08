@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5051E41211746383DB25A4DE /* libPods-WebViewTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0B2D0BC34547F541434D17 /* libPods-WebViewTest.a */; };
+		F712F74B2283193D001900CC /* ZYSpreadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F712F7472283193D001900CC /* ZYSpreadButton.m */; };
+		F712F74C2283193D001900CC /* ZYSpreadSubButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F712F7482283193D001900CC /* ZYSpreadSubButton.m */; };
 		F72121EB227239F7008BBB68 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72121EA227239F7008BBB68 /* WebViewController.m */; };
 		F7786846227299050007BCAE /* LoadingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F7786844227299050007BCAE /* LoadingVC.m */; };
 		F7786847227299050007BCAE /* LoadingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7786845227299050007BCAE /* LoadingVC.xib */; };
@@ -22,14 +24,16 @@
 		F78080BF2271AC1E00221268 /* AVOSCloudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F78080BC2271AC1E00221268 /* AVOSCloudManager.m */; };
 		F78080C22271B46F00221268 /* WSAVOSBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F78080C12271B46F00221268 /* WSAVOSBaseModel.m */; };
 		F78080C52271B80400221268 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F78080C42271B80400221268 /* BaseVC.m */; };
-		F7B5B82F22803594007384DD /* ZYSpreadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B5B82B22803594007384DD /* ZYSpreadButton.m */; };
-		F7B5B83022803594007384DD /* ZYSpreadSubButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B5B82C22803594007384DD /* ZYSpreadSubButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B0B2D0BC34547F541434D17 /* libPods-WebViewTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebViewTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93654287EB884CFBD8ECB3ED /* Pods-WebViewTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewTest.release.xcconfig"; path = "Target Support Files/Pods-WebViewTest/Pods-WebViewTest.release.xcconfig"; sourceTree = "<group>"; };
 		B755C00883EB181E09616AB6 /* Pods-WebViewTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewTest.debug.xcconfig"; path = "Target Support Files/Pods-WebViewTest/Pods-WebViewTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F712F7472283193D001900CC /* ZYSpreadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSpreadButton.m; sourceTree = "<group>"; };
+		F712F7482283193D001900CC /* ZYSpreadSubButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSpreadSubButton.m; sourceTree = "<group>"; };
+		F712F7492283193D001900CC /* ZYSpreadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSpreadButton.h; sourceTree = "<group>"; };
+		F712F74A2283193D001900CC /* ZYSpreadSubButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSpreadSubButton.h; sourceTree = "<group>"; };
 		F72121E9227239F7008BBB68 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		F72121EA227239F7008BBB68 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		F7786843227299050007BCAE /* LoadingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingVC.h; sourceTree = "<group>"; };
@@ -56,10 +60,6 @@
 		F78080C12271B46F00221268 /* WSAVOSBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSAVOSBaseModel.m; sourceTree = "<group>"; };
 		F78080C32271B80400221268 /* BaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
 		F78080C42271B80400221268 /* BaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
-		F7B5B82B22803594007384DD /* ZYSpreadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSpreadButton.m; sourceTree = "<group>"; };
-		F7B5B82C22803594007384DD /* ZYSpreadSubButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSpreadSubButton.m; sourceTree = "<group>"; };
-		F7B5B82D22803594007384DD /* ZYSpreadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSpreadButton.h; sourceTree = "<group>"; };
-		F7B5B82E22803594007384DD /* ZYSpreadSubButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSpreadSubButton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +89,17 @@
 				93654287EB884CFBD8ECB3ED /* Pods-WebViewTest.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F712F7462283193D001900CC /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				F712F7472283193D001900CC /* ZYSpreadButton.m */,
+				F712F7482283193D001900CC /* ZYSpreadSubButton.m */,
+				F712F7492283193D001900CC /* ZYSpreadButton.h */,
+				F712F74A2283193D001900CC /* ZYSpreadSubButton.h */,
+			);
+			path = objc;
 			sourceTree = "<group>";
 		};
 		F780809322719CB500221268 = {
@@ -137,7 +148,7 @@
 		F78080B52271A9C100221268 /* LeanCloud */ = {
 			isa = PBXGroup;
 			children = (
-				F7B5B82A22803594007384DD /* objc */,
+				F712F7462283193D001900CC /* objc */,
 				F78080BA2271AC1E00221268 /* AVOSCloudManager.h */,
 				F78080BC2271AC1E00221268 /* AVOSCloudManager.m */,
 				F78080C02271B46F00221268 /* WSAVOSBaseModel.h */,
@@ -148,18 +159,6 @@
 				F78080B92271AC1D00221268 /* WSAVOSStatusModel.m */,
 			);
 			path = LeanCloud;
-			sourceTree = "<group>";
-		};
-		F7B5B82A22803594007384DD /* objc */ = {
-			isa = PBXGroup;
-			children = (
-				F7B5B82B22803594007384DD /* ZYSpreadButton.m */,
-				F7B5B82C22803594007384DD /* ZYSpreadSubButton.m */,
-				F7B5B82D22803594007384DD /* ZYSpreadButton.h */,
-				F7B5B82E22803594007384DD /* ZYSpreadSubButton.h */,
-			);
-			name = objc;
-			path = "../../../44/MTWKWeb-WKos/MTWKWeb/objc";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,9 +289,9 @@
 				F78080C22271B46F00221268 /* WSAVOSBaseModel.m in Sources */,
 				F72121EB227239F7008BBB68 /* WebViewController.m in Sources */,
 				F78080BE2271AC1E00221268 /* WSAVOSStatusModel.m in Sources */,
-				F7B5B83022803594007384DD /* ZYSpreadSubButton.m in Sources */,
+				F712F74C2283193D001900CC /* ZYSpreadSubButton.m in Sources */,
 				F78080AF22719CB600221268 /* main.m in Sources */,
-				F7B5B82F22803594007384DD /* ZYSpreadButton.m in Sources */,
+				F712F74B2283193D001900CC /* ZYSpreadButton.m in Sources */,
 				F7786846227299050007BCAE /* LoadingVC.m in Sources */,
 				F78080A122719CB500221268 /* AppDelegate.m in Sources */,
 				F78080C52271B80400221268 /* BaseVC.m in Sources */,
