@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  WKTest
+//
+//  Created by ox Ho on 2019/4/25.
+//  Copyright © 2019年 oxho. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//#import <YYModel.h>
+//#import <AVOSCloud/AVOSCloud.h>
+#import "AVOSCloudManager.h"
+//#import "WSAVOSBaseModel.h"
+//#import "WSAVOSModel.h"
+//#import "WSAVOSStatusModel.h"
+//#import <AFNetworking.h>
+#endif /* PrefixHeader_pch */
