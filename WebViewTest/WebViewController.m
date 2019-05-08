@@ -43,7 +43,7 @@
     CGFloat tabbarheightt = 0;
     if (Screen_Height >= 812) {
         heightt += 20;
-        tabbarheightt = 20;
+        tabbarheightt = 40;
     }
 //    self.webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, heightt, Screen_Width, Screen_Height-tabbarheightt-heightt) configuration:configuration];
     self.webView = [[UIWebView alloc]initWithFrame:CGRectMake(0, heightt, Screen_Width, Screen_Height - tabbarheightt -heightt)];
